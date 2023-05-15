@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/fragmentPertama"
-        android:name="id.poncoe.latihandatafragment.FragmentPertama"
+        android:name="id.poncoe.latihandatafragment.ui.FragmentPertama"
         android:label="Fragment Pertama"
         tools:layout="@layout/fragment_pertama">
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/fragmentKedua"
-        android:name="id.poncoe.latihandatafragment.FragmentKedua"
+        android:name="id.poncoe.latihandatafragment.ui.FragmentKedua"
         android:label="Fragment Kedua"
         tools:layout="@layout/fragment_kedua" >
         <argument
