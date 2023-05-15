@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragmentPertama">
+
+    <fragment
+        android:id="@+id/fragmentPertama"
+        android:name="id.poncoe.latihandatafragment.FragmentPertama"
+        android:label="Fragment Pertama"
+        tools:layout="@layout/fragment_pertama">
+        <action
+            android:id="@+id/action_fragmentPertama_to_fragmentKedua"
+            app:destination="@id/fragmentKedua" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentKedua"
+        android:name="id.poncoe.latihandatafragment.FragmentKedua"
+        android:label="Fragment Kedua"
+        tools:layout="@layout/fragment_kedua" />
+</navigation>

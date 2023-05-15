@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Latihan Data Fragment</string>
+    <string name="hello_world">Hello World</string>
+    <string name="intro">Aplikasi ini menguji apakah data dari fragment pertama bisa dikirim ke fragment kedua.</string>
+    <string name="kirim_ke_fragment_kedua">Kirim ke Fragment Kedua</string>
+    <string name="masukan_nama_anda">Masukan Nama Anda</string>
+</resources>
