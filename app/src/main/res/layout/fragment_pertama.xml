@@ -22,14 +22,13 @@
         android:id="@+id/input_nama"
         android:layout_width="315dp"
         android:layout_height="49dp"
+        android:layout_marginBottom="88dp"
         android:autofillHints="name"
-        android:layout_marginBottom="252dp"
         android:ems="10"
         android:hint="@string/masukan_nama_anda"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/button_go"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
