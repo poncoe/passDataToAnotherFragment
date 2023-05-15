@@ -18,5 +18,9 @@
         android:id="@+id/fragmentKedua"
         android:name="id.poncoe.latihandatafragment.FragmentKedua"
         android:label="Fragment Kedua"
-        tools:layout="@layout/fragment_kedua" />
+        tools:layout="@layout/fragment_kedua" >
+        <argument
+            android:name="passdataNama"
+            app:argType="string" />
+    </fragment>
 </navigation>

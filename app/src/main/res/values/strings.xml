@@ -4,4 +4,5 @@
     <string name="intro">Aplikasi ini menguji apakah data dari fragment pertama bisa dikirim ke fragment kedua.</string>
     <string name="kirim_ke_fragment_kedua">Kirim ke Fragment Kedua</string>
     <string name="masukan_nama_anda">Masukan Nama Anda</string>
+    <string name="input_kosong">Input tidak boleh kosong!</string>
 </resources>
